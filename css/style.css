@@ -417,7 +417,10 @@ margin-top: 100px;
 /* footer */
 .team_social{
   fill:var(--primary-brand);
+    width: 20px;
+      height: 20px;
 }
 .team_social:hover {
   fill: var(--pressed-state);
+
 }
