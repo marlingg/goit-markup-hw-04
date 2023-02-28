@@ -514,6 +514,10 @@ width: 104px;
     height: 56px;
     border-radius: 4px;
 }
+.a_customers :hover{
+
+}
+.a_customers :focus {}
 .li_customers{
 
 width: 168px;
