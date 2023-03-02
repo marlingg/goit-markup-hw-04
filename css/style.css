@@ -69,8 +69,6 @@ img{
   color: var(--dark);
   margin-right: 76px;
 }
-.main_adress_header {
-}
 .ul_navigation_header {
   display: flex;
  
@@ -430,6 +428,7 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .footer_li_team_social{
   margin-right: 24px;
@@ -527,10 +526,13 @@ width: 104px;
 display: flex;
 justify-content: center;
 align-items: center;
+color: #e7e9fc;
+fill: currentColor;
 }
 .a_customers:hover{
 border: 1px solid #404BBF;
-fill:#404BBF;
+color: #404BBF;
+
 }
 .a_customers:focus {
 border: 1px solid #404BBF;
@@ -554,6 +556,12 @@ width: 168px;
 padding-top: 130px;
   padding-bottom: 120px;
 }
+.div_social_media{
+margin-left: 120px;
+
+}
 
 
-
+.div_footer{
+  display: flex;
+}
